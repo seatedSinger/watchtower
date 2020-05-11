@@ -18,3 +18,4 @@ class TreeNode:
             node = node.right
         return res
 
+#PreOrder
