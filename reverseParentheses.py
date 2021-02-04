@@ -1,4 +1,4 @@
-def reverseParentheses(self, s):
+def reverseParentheses(s):
     opened = []
     pair = {}
     for i, c in enumerate(s):
@@ -17,3 +17,5 @@ def reverseParentheses(self, s):
             res.append(s[i])
         i += d
     return ''.join(res)
+print(reverseParentheses("(u(love)i)"))
+# print(reverseParentheses("(ed(et(oc))el)"))

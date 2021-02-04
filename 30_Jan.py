@@ -15,15 +15,3 @@ def backtrack(n, k, res, path, index):
 # print(combine(n,k))
 
 from collections import defaultdict
-
-def harmonics(nums):
-    d = defaultdict(int)
-    aux = {}
-    res = []
-    for i in nums:
-        d[i] += 1
-        d[i-1] += 1
-    # return d.values()
-    return d
-        
-print(harmonics([10,11,12,13,14]))
