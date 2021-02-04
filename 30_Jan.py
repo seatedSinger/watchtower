@@ -13,5 +13,3 @@ def backtrack(n, k, res, path, index):
     for i in range(index, n+1):
         backtrack(n ,k, res, path+[i], i+1)
 # print(combine(n,k))
-
-from collections import defaultdict
