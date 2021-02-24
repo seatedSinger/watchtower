@@ -1,3 +1,3 @@
 # watchtower
 
-Leetcode
+Leetcode weekly / biweekly
