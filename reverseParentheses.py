@@ -17,5 +17,7 @@ def reverseParentheses(s):
             res.append(s[i])
         i += d
     return ''.join(res)
+
+
 print(reverseParentheses("(u(love)i)"))
 # print(reverseParentheses("(ed(et(oc))el)"))
