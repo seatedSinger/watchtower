@@ -1,4 +1,4 @@
-# Time : space O(A + B) | A and B no. of total chars in a & b
+# Time : space O(A + B) Space O(m) [total word length] | A and B no. of total chars in a & b
 # union operation
 
 from collections import Counter
