@@ -14,7 +14,19 @@ def smallestSubq(s):
                 stack.pop()
             stack.append(v)
     return ''.join(stack)
-    
+
+
+def removeDuplicate(s):
+    # using string
+    idx = {x: i for i,x in enumerate(s)}
+    res = ''
+    for i, v in enumerate(s):
+        if v not in res:
+            while v < res[-1:] and i < idx[res[-1]]:
+                res = res[:-1]
+            res += v
+    return res
+
 '''
 def smallestSubq(s):
     last = {c: i for i, c in enumerate(S)}
@@ -30,5 +42,7 @@ def smallestSubq(s):
 
 s = 'bcabc'
 print(smallestSubq(s)) 
+print(removeDuplicate(s))
 s = 'cbacdcbc'
 print(smallestSubq(s))
+print(removeDuplicate(s))
