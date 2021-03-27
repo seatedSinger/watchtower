@@ -14,6 +14,7 @@ def smallestSubq(s):
                 stack.pop()
             stack.append(v)
     return ''.join(stack)
+    
 '''
 def smallestSubq(s):
     last = {c: i for i, c in enumerate(S)}
