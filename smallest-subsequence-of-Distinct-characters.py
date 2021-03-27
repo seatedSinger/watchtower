@@ -27,6 +27,7 @@ def removeDuplicate(s):
             res += v
     return res
 
+
 '''
 def smallestSubq(s):
     last = {c: i for i, c in enumerate(S)}
