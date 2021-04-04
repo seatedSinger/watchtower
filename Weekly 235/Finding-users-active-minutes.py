@@ -20,7 +20,7 @@ def solution2(logs, k):
         if len(v) <= k:
             res[len(v)-1] += 1
     return res
-    
+
 
 logs = [[1,1],[2,2],[2,3]]
 k = 4
