@@ -34,7 +34,7 @@ def maxProfitFee(prices, fee):
     return res
 
 
-# a = [7,1,5,3,6,4]\
+# a = [7,1,5,3,6,4]
 # print(maxProfit(a))
 # print(solution2(a))
-print(maxProfitFee([1, 3, 7, 5, 10, 3], 3))
+# print(maxProfitFee([1, 3, 7, 5, 10, 3], 3))
