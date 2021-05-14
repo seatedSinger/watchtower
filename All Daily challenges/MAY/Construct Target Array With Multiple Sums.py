@@ -18,4 +18,3 @@ def isPossible(A):
 
 
 A = [9, 3, 5]
-print(isPossible(A))
