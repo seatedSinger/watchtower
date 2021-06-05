@@ -13,6 +13,7 @@ def courseSchedule(numCourses, prerequisites):
     print(preMap)
     # visitSet =  all courses allong curr DFS path
     visitSet = set()
+
     def dfs(crs):
         if crs in visitSet:
             return False
@@ -20,14 +21,15 @@ def courseSchedule(numCourses, prerequisites):
             return True
         visitSet.add(crs)
         for pre in preMap[crs]:
-            if not dfs(pre): return False
+            if not dfs(pre):
+                return False
         visitSet.remove(crs)
         preMap[crs] = []
         return True
     for crs in range(numCourses):
-        if not dfs(crs): return False
+        if not dfs(crs):
+            return False
     return True
-
 
 
 print(courseSchedule(numCourses_3, prerequisites_3))
