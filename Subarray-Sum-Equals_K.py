@@ -5,6 +5,7 @@ def sumSubarray(nums, k):
     res = 0
     for i in nums:
         currSum += i  # prefix sum
+        # Accumulate can be Used ( itertools )
         res += auxSum.get(currSum - k, 0)  # Taking difference
         auxSum[currSum] = auxSum.get(currSum, 0) + 1
     return res
