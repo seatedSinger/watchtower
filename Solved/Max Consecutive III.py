@@ -4,6 +4,7 @@ k = 2
 End pointer grows in outer look | Start moves with conditions
 '''
 
+
 def maxConsecutiveIII(nums, k):
     left, right = 0, 0
     for right in range(len(nums)):
@@ -14,7 +15,6 @@ def maxConsecutiveIII(nums, k):
                 k += 1
             left += 1
     return right - left + 1
-
 
 
 print(maxConsecutiveIII(nums, k))
