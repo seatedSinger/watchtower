@@ -6,7 +6,7 @@ s2 = 'ceabaacb'
 def minDel(s):
     count, res, used = Counter(s), 0, set()
     for ch, freq in count.items():
-        while freq > 0:
+        while freq > 0 and freq in used:
             freq -= 1
             res += 1
         used.add(freq)
