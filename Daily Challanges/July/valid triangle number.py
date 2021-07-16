@@ -16,4 +16,4 @@ def validTriangle(nums):
     return res
 
 
-print(validTriangle(nums))
+print(validTriangle([3, 4, 6, 38, 39]))
