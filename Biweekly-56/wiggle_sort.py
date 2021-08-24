@@ -9,6 +9,7 @@ def wiggleSort(nums):
             nums[i], nums[i - 1] = nums[i - 1], nums[i]
     return nums
 
+
 def solution2(nums):
     for i in range(1, len(nums)):
         if i % 2 and nums[i] <= nums[i - 1] or not i % 2 and nums[i] >= nums[i - 1]:
@@ -17,5 +18,5 @@ def solution2(nums):
 
 
 print(wiggleSort(nums))
-# print(wiggleSort([1, 2, 3, 4]))
+print(wiggleSort([1, 2, 3, 4]))
 print(solution2(nums))
