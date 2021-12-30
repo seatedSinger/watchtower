@@ -1,4 +1,4 @@
-# wiggle | about ODD & EVEN
+# wiggle | about EVEN & ODD + shift according to index as well
 nums = [3, 5, 2, 1, 6, 4]
 
 
