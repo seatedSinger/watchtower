@@ -33,4 +33,3 @@ def courseSchedule(numCourses, prerequisites):
 
 
 print(courseSchedule(numCourses_3, prerequisites_3))
-        

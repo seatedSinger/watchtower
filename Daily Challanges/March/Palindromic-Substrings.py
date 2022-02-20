@@ -1,4 +1,3 @@
-# REVIEW : This need further review
 # Brute
 # O(N3)
 def solution1(s):
@@ -40,8 +39,6 @@ def solution3(s):
                 dp[i][j] = True
                 res += 1
     return res
-
-
 
 
 s = 'abc'
