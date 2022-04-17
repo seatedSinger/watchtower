@@ -10,4 +10,5 @@ def sumSubarray(nums, k):
         auxSum[currSum] = auxSum.get(currSum, 0) + 1
     return res
 
+
 print(sumSubarray([9, 4, 20, 3, 10, 5], 33))
