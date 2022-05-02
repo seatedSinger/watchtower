@@ -19,6 +19,7 @@ Explanation: The following are the substrings of "abbca":
 The total sum is 5 + 7 + 7 + 6 + 3 = 28.
 '''
 
+
 def appealSum(s):
     prev = {}
     total, curr = 0, 0
