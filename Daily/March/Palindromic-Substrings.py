@@ -1,4 +1,3 @@
-# REVIEW : This need further review
 # Brute
 # O(N3)
 def solution1(s):
